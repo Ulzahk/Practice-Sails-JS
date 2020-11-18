@@ -1,4 +1,4 @@
-# practice-sails-js
+# Practice-Sails-JS
 
 a [Sails v1](https://sailsjs.com) application
 
