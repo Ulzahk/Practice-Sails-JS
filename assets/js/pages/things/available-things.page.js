@@ -13,7 +13,7 @@ parasails.registerPage('available-things', {
     this.things = [
       {id: 1, label: 'Sweet Red Drill'},
       {id: 2, label: 'Rad Mountain Bike'}
-    ]
+    ];
   },
   mounted: async function() {
     //…
