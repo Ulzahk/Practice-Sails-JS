@@ -63,6 +63,10 @@ module.exports.bootstrap = async function() {
     { emailAddress: 'admin@example.com', fullName: 'Ryan Dahl', isSuperAdmin: true, password: await sails.helpers.passwords.hashPassword('abc123') },
   ]);
 
+  let myCamera = await Thing.create({
+    label: 'My Camera'
+  }).fetch();
+
   // Save new bootstrap version
   await sails.helpers.fs.writeJson.with({
     destination: bootstrapLastRunInfoPath,
