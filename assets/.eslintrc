@@ -45,6 +45,7 @@
     "Stripe": true,
     "Vue": true,
     "VueRouter": true,
+    "Promise": true,
     "moment": true,
     // "google": true,
     // ...etc.
